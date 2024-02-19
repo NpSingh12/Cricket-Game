@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    background-color: #87CEEB; /* Sky Blue */
+    color: #ffffff; /* White */
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #006400; /* Dark Green */
+}
+
+.choise-button {
+    height: 100px;
+    width: 100px;
+    border: none;
+    margin: 10px;
+    background-color: #228B22; /* Forest Green */
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.choise-button:hover {
+    transform: scale(1.1);
+}
+
+.choise-image {
+    height: 75px;
+    width: 75px;
+}
+
+button {
+    background-color: #228B22; /* Forest Green */
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #32CD32; /* Lime Green */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #000000; /* Black */
+}
